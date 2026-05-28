@@ -22,5 +22,33 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+}
 
+.buttons button {
+  border-radius: 50%;
+  border: 1px white;
+  height: 50px;
+  width: auto;
+  font-size: 20px;
+  cursor: pointer;
+  background: #505050;
+  color: white;
+}
+
+.buttons button:hover {
+  filter: brightness(1.2);
+}
+
+.buttons .zero {
+  grid-column: span 2;
+  border-radius: 30px;
+}
+
+.buttons .operator {
+  background: #ff9f0a; 
+}
+
+.buttons .clear {
+  background: #a5a5a5;
+  color: black;
 }
