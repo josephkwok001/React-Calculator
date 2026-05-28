@@ -19,7 +19,6 @@ function Buttons() {
         <button>-</button>
         <button>×</button>
         <button>C</button>
-
         
     </div>
   )
